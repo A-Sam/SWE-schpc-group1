@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="/dss/dsshome1/lxc0D/t1221am/project/SWE/Source/Blocks/WavePropagationBlock.cpp"
+           line_no="113"
+           routine="Blocks::WavePropagationBlock::updateUnknowns"
+           is_vectorized="0"
+           self_time="3.489585E-01"
+           total_time="7.253471E-01"
+           trip_counts=""
+           func_instance="106"
+           priority="0"/>
+  <hotspot filename="/dss/dsshome1/lxc0D/t1221am/project/SWE/Source/Blocks/WavePropagationBlock.cpp"
+           line_no="52"
+           routine="Blocks::WavePropagationBlock::computeNumericalFluxes"
+           is_vectorized="0"
+           self_time="8.001455E-02"
+           total_time="3.520048E+00"
+           trip_counts=""
+           func_instance="98"
+           priority="0"/>
+  <hotspot filename="/dss/dsshome1/lxc0D/t1221am/project/SWE/Source/Blocks/WavePropagationBlock.cpp"
+           line_no="76"
+           routine="Blocks::WavePropagationBlock::computeNumericalFluxes"
+           is_vectorized="0"
+           self_time="6.398257E-02"
+           total_time="3.466020E+00"
+           trip_counts=""
+           func_instance="103"
+           priority="0"/>
+  <hotspot filename="/dss/dsshome1/lxc0D/t1221am/project/SWE/Source/Blocks/Block.cpp"
+           line_no="483"
+           routine="Blocks::Block::setBoundaryConditions"
+           is_vectorized="0"
+           self_time="1.200961E-02"
+           total_time="1.200961E-02"
+           trip_counts=""
+           func_instance="154"
+           priority="0"/>
+  <hotspot filename="/dss/dsshome1/lxc0D/t1221am/project/SWE/Source/Blocks/Block.cpp"
+           line_no="113"
+           routine="Blocks::Block::initialiseScenario"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="7.772019E-03"
+           trip_counts=""
+           func_instance="86"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

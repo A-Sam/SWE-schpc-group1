@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="4.737978E+00"
+           trip_counts=""
+           func_instance="96"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="4.737978E+00"
+           trip_counts=""
+           func_instance="95"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="Blocks::WavePropagationBlock::computeNumericalFluxes"
+           is_vectorized="0"
+           self_time="1.401224E-01"
+           total_time="2.159372E+00"
+           trip_counts=""
+           func_instance="97"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="Blocks::WavePropagationBlock::computeNumericalFluxes"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="2.159372E+00"
+           trip_counts=""
+           func_instance="99"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="Blocks::WavePropagationBlock::computeNumericalFluxes"
+           is_vectorized="0"
+           self_time="9.189037E-02"
+           total_time="1.858427E+00"
+           trip_counts=""
+           func_instance="101"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

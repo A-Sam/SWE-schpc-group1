@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="/dss/dsshome1/lxc0D/t1221am/project/SWE_Nandini/SWE_n/Source/Runners/MPI-Runner.cpp"
+           line_no="356"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="4.937617E+00"
+           trip_counts=""
+           func_instance="77"
+           priority="0"/>
+  <hotspot filename="/dss/dsshome1/lxc0D/t1221am/project/SWE_Nandini/SWE_n/Source/Runners/MPI-Runner.cpp"
+           line_no="358"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="4.937617E+00"
+           trip_counts=""
+           func_instance="74"
+           priority="0"/>
+  <hotspot filename="/dss/dsshome1/lxc0D/t1221am/project/SWE_Nandini/SWE_n/Source/Blocks/WavePropagationBlock.cpp"
+           line_no="133"
+           routine="Blocks::WavePropagationBlock::computeNumericalFluxes"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="1.994256E+00"
+           trip_counts=""
+           func_instance="84"
+           priority="0"/>
+  <hotspot filename="/dss/dsshome1/lxc0D/t1221am/project/SWE_Nandini/SWE_n/Source/Blocks/WavePropagationBlock.cpp"
+           line_no="135"
+           routine="Blocks::WavePropagationBlock::computeNumericalFluxes"
+           is_vectorized="0"
+           self_time="9.592866E-02"
+           total_time="1.994256E+00"
+           trip_counts=""
+           func_instance="83"
+           priority="0"/>
+  <hotspot filename="/dss/dsshome1/lxc0D/t1221am/project/SWE_Nandini/SWE_n/Source/Blocks/WavePropagationBlock.cpp"
+           line_no="99"
+           routine="Blocks::WavePropagationBlock::computeNumericalFluxes"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="1.993769E+00"
+           trip_counts=""
+           func_instance="80"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

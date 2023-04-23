@@ -1,0 +1,581 @@
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              x-wing0
+  Local adapter:           mlx4_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   x-wing0
+  Local device: mlx4_0
+--------------------------------------------------------------------------
+
+*************************************************************
+Welcome to SWE
+
+SWE Copyright (C) 2012-2022
+  Technische Universitaet Muenchen
+  Department of Informatics
+  Chair of Scientific Computing
+  http://www5.in.tum.de/SWE
+
+SWE comes with ABSOLUTELY NO WARRANTY.
+SWE is a free software, and you are welcome
+to redistribute it under certain conditions.
+Details can be found in the file 'LICENSE'.
+*************************************************************
+Thu Feb  2 18:56:54 2023        Number of MPI processes: 1
+Thu Feb  2 18:56:54 2023        Number of Cells: 1024 * 1024 = 1048576
+Thu Feb  2 18:56:54 2023        Number of Blocks: 1 * 1 = 1
+Thu Feb  2 18:56:54 2023        Process 0 - Number of Cells: 1024 * 1024 = 1048576
+Thu Feb  2 18:56:54 2023        Cell size: 0.976562m * 0.976562m = 0.953674m^2
+
+Thu Feb  2 18:56:54 2023        Process 0 - Printing device informationThu Feb  2 18:56:54 2023 Process 0 - Current CUDA device (relative to host): 0 ( 4 in total)
+Thu Feb  2 18:56:54 2023        Process 0 - CUDA device properties: NVIDIA GeForce RTX 3080 (name), 11040/11040 (driver/runtime version), 8.6 (compute capability)
+Thu Feb  2 18:56:54 2023        Connecting SWE blocks at left boundaries.
+Thu Feb  2 18:56:54 2023        Connecting SWE blocks at right boundaries.
+Thu Feb  2 18:56:54 2023        Connecting SWE blocks at bottom boundaries.
+Thu Feb  2 18:56:54 2023        Connecting SWE blocks at top boundaries.
+Thu Feb  2 18:56:54 2023        Process 0 - Neighbors: -2 (left), -2 (right), -2 (bottom), -2 (top)
+Thu Feb  2 18:56:54 2023        Writing output file at time: 0 seconds
+                                                                                                                                                                                  
+------------------------------------------------------------------
+Thu Feb  2 18:56:55 2023        Everything is set up, starting the simulation.
+------------------------------------------------------------------
+Thu Feb  2 18:56:55 2023        [0]: Simulation with max. global dt 0.032202 at time: 0 seconds.                                                                                  
+Thu Feb  2 18:56:55 2023        [1]: Simulation with max. global dt 0.031198 at time: 0.0322018 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [2]: Simulation with max. global dt 0.030654 at time: 0.0633993 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [3]: Simulation with max. global dt 0.030309 at time: 0.0940531 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [4]: Simulation with max. global dt 0.030098 at time: 0.124363 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [5]: Simulation with max. global dt 0.029817 at time: 0.15446 seconds.                                                                            
+Thu Feb  2 18:56:55 2023        [6]: Simulation with max. global dt 0.029644 at time: 0.184277 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [7]: Simulation with max. global dt 0.029573 at time: 0.213922 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [8]: Simulation with max. global dt 0.029557 at time: 0.243495 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [9]: Simulation with max. global dt 0.029564 at time: 0.273052 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [10]: Simulation with max. global dt 0.029554 at time: 0.302616 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [11]: Simulation with max. global dt 0.029536 at time: 0.33217 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [12]: Simulation with max. global dt 0.029525 at time: 0.361706 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [13]: Simulation with max. global dt 0.029518 at time: 0.391231 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [14]: Simulation with max. global dt 0.029513 at time: 0.420748 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [15]: Simulation with max. global dt 0.029511 at time: 0.450262 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [16]: Simulation with max. global dt 0.029509 at time: 0.479772 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [17]: Simulation with max. global dt 0.029508 at time: 0.509281 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [18]: Simulation with max. global dt 0.029507 at time: 0.538788 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [19]: Simulation with max. global dt 0.029506 at time: 0.568295 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [20]: Simulation with max. global dt 0.029506 at time: 0.597801 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [21]: Simulation with max. global dt 0.029506 at time: 0.627307 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [22]: Simulation with max. global dt 0.029505 at time: 0.656813 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [23]: Simulation with max. global dt 0.029506 at time: 0.686318 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [24]: Simulation with max. global dt 0.029507 at time: 0.715824 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [25]: Simulation with max. global dt 0.029508 at time: 0.74533 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        Writing output file at time: 0.774839 seconds                                                                                                     
+Thu Feb  2 18:56:55 2023        [26]: Simulation with max. global dt 0.029510 at time: 0.774839 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [27]: Simulation with max. global dt 0.029511 at time: 0.804349 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [28]: Simulation with max. global dt 0.029513 at time: 0.83386 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [29]: Simulation with max. global dt 0.029515 at time: 0.863373 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [30]: Simulation with max. global dt 0.029518 at time: 0.892888 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [31]: Simulation with max. global dt 0.029517 at time: 0.922405 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [32]: Simulation with max. global dt 0.029518 at time: 0.951923 seconds.                                                                          
+Thu Feb  2 18:56:55 2023        [33]: Simulation with max. global dt 0.029515 at time: 0.98144 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [34]: Simulation with max. global dt 0.029514 at time: 1.01096 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [35]: Simulation with max. global dt 0.029513 at time: 1.04047 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [36]: Simulation with max. global dt 0.029513 at time: 1.06998 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [37]: Simulation with max. global dt 0.029510 at time: 1.09949 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [38]: Simulation with max. global dt 0.029507 at time: 1.129 seconds.                                                                             
+Thu Feb  2 18:56:55 2023        [39]: Simulation with max. global dt 0.029506 at time: 1.15851 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [40]: Simulation with max. global dt 0.029505 at time: 1.18802 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [41]: Simulation with max. global dt 0.029505 at time: 1.21752 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [42]: Simulation with max. global dt 0.029503 at time: 1.24703 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [43]: Simulation with max. global dt 0.029500 at time: 1.27653 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [44]: Simulation with max. global dt 0.029499 at time: 1.30603 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [45]: Simulation with max. global dt 0.029498 at time: 1.33553 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [46]: Simulation with max. global dt 0.029497 at time: 1.36503 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [47]: Simulation with max. global dt 0.029495 at time: 1.39452 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [48]: Simulation with max. global dt 0.029492 at time: 1.42402 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [49]: Simulation with max. global dt 0.029488 at time: 1.45351 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [50]: Simulation with max. global dt 0.029484 at time: 1.483 seconds.                                                                             
+Thu Feb  2 18:56:55 2023        Writing output file at time: 1.51248 seconds                                                                                                      
+Thu Feb  2 18:56:55 2023        [51]: Simulation with max. global dt 0.029482 at time: 1.51248 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [52]: Simulation with max. global dt 0.029480 at time: 1.54196 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [53]: Simulation with max. global dt 0.029475 at time: 1.57144 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [54]: Simulation with max. global dt 0.029471 at time: 1.60092 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [55]: Simulation with max. global dt 0.029468 at time: 1.63039 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [56]: Simulation with max. global dt 0.029467 at time: 1.65986 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [57]: Simulation with max. global dt 0.029462 at time: 1.68932 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [58]: Simulation with max. global dt 0.029458 at time: 1.71879 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [59]: Simulation with max. global dt 0.029455 at time: 1.74824 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [60]: Simulation with max. global dt 0.029453 at time: 1.7777 seconds.                                                                            
+Thu Feb  2 18:56:55 2023        [61]: Simulation with max. global dt 0.029450 at time: 1.80715 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [62]: Simulation with max. global dt 0.029446 at time: 1.8366 seconds.                                                                            
+Thu Feb  2 18:56:55 2023        [63]: Simulation with max. global dt 0.029442 at time: 1.86605 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [64]: Simulation with max. global dt 0.029440 at time: 1.89549 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [65]: Simulation with max. global dt 0.029438 at time: 1.92493 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [66]: Simulation with max. global dt 0.029433 at time: 1.95437 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [67]: Simulation with max. global dt 0.029429 at time: 1.9838 seconds.                                                                            
+Thu Feb  2 18:56:55 2023        [68]: Simulation with max. global dt 0.029427 at time: 2.01323 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [69]: Simulation with max. global dt 0.029425 at time: 2.04266 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [70]: Simulation with max. global dt 0.029420 at time: 2.07208 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [71]: Simulation with max. global dt 0.029416 at time: 2.1015 seconds.                                                                            
+Thu Feb  2 18:56:55 2023        [72]: Simulation with max. global dt 0.029413 at time: 2.13092 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [73]: Simulation with max. global dt 0.029411 at time: 2.16033 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [74]: Simulation with max. global dt 0.029407 at time: 2.18974 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [75]: Simulation with max. global dt 0.029403 at time: 2.21915 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [76]: Simulation with max. global dt 0.029400 at time: 2.24855 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        Writing output file at time: 2.27795 seconds                                                                                                      
+Thu Feb  2 18:56:55 2023        [77]: Simulation with max. global dt 0.029398 at time: 2.27795 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [78]: Simulation with max. global dt 0.029394 at time: 2.30735 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [79]: Simulation with max. global dt 0.029390 at time: 2.33675 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [80]: Simulation with max. global dt 0.029386 at time: 2.36614 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [81]: Simulation with max. global dt 0.029384 at time: 2.39552 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [82]: Simulation with max. global dt 0.029381 at time: 2.42491 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [83]: Simulation with max. global dt 0.029376 at time: 2.45429 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [84]: Simulation with max. global dt 0.029373 at time: 2.48366 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [85]: Simulation with max. global dt 0.029370 at time: 2.51304 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [86]: Simulation with max. global dt 0.029368 at time: 2.54241 seconds.                                                                           
+Thu Feb  2 18:56:55 2023        [87]: Simulation with max. global dt 0.029363 at time: 2.57177 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [88]: Simulation with max. global dt 0.029359 at time: 2.60114 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [89]: Simulation with max. global dt 0.029357 at time: 2.6305 seconds.                                                                            
+Thu Feb  2 18:56:56 2023        [90]: Simulation with max. global dt 0.029355 at time: 2.65985 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [91]: Simulation with max. global dt 0.029350 at time: 2.68921 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [92]: Simulation with max. global dt 0.029346 at time: 2.71856 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [93]: Simulation with max. global dt 0.029343 at time: 2.7479 seconds.                                                                            
+Thu Feb  2 18:56:56 2023        [94]: Simulation with max. global dt 0.029341 at time: 2.77725 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [95]: Simulation with max. global dt 0.029336 at time: 2.80659 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [96]: Simulation with max. global dt 0.029332 at time: 2.83592 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [97]: Simulation with max. global dt 0.029329 at time: 2.86526 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [98]: Simulation with max. global dt 0.029328 at time: 2.89459 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [99]: Simulation with max. global dt 0.029323 at time: 2.92391 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [100]: Simulation with max. global dt 0.029319 at time: 2.95324 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [101]: Simulation with max. global dt 0.029316 at time: 2.98255 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        Writing output file at time: 3.01187 seconds                                                                                                      
+Thu Feb  2 18:56:56 2023        [102]: Simulation with max. global dt 0.029314 at time: 3.01187 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [103]: Simulation with max. global dt 0.029309 at time: 3.04118 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [104]: Simulation with max. global dt 0.029305 at time: 3.07049 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [105]: Simulation with max. global dt 0.029302 at time: 3.0998 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [106]: Simulation with max. global dt 0.029300 at time: 3.1291 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [107]: Simulation with max. global dt 0.029296 at time: 3.1584 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [108]: Simulation with max. global dt 0.029292 at time: 3.1877 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [109]: Simulation with max. global dt 0.029289 at time: 3.21699 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [110]: Simulation with max. global dt 0.029286 at time: 3.24628 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [111]: Simulation with max. global dt 0.029282 at time: 3.27556 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [112]: Simulation with max. global dt 0.029278 at time: 3.30485 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [113]: Simulation with max. global dt 0.029275 at time: 3.33412 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [114]: Simulation with max. global dt 0.029273 at time: 3.3634 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [115]: Simulation with max. global dt 0.029269 at time: 3.39267 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [116]: Simulation with max. global dt 0.029265 at time: 3.42194 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [117]: Simulation with max. global dt 0.029261 at time: 3.4512 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [118]: Simulation with max. global dt 0.029259 at time: 3.48047 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [119]: Simulation with max. global dt 0.029255 at time: 3.50973 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [120]: Simulation with max. global dt 0.029251 at time: 3.53898 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [121]: Simulation with max. global dt 0.029248 at time: 3.56823 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [122]: Simulation with max. global dt 0.029246 at time: 3.59748 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [123]: Simulation with max. global dt 0.029242 at time: 3.62673 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [124]: Simulation with max. global dt 0.029238 at time: 3.65597 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [125]: Simulation with max. global dt 0.029235 at time: 3.68521 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [126]: Simulation with max. global dt 0.029233 at time: 3.71444 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [127]: Simulation with max. global dt 0.029229 at time: 3.74367 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        Writing output file at time: 3.7729 seconds                                                                                                       
+Thu Feb  2 18:56:56 2023        [128]: Simulation with max. global dt 0.029225 at time: 3.7729 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [129]: Simulation with max. global dt 0.029222 at time: 3.80213 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [130]: Simulation with max. global dt 0.029220 at time: 3.83135 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [131]: Simulation with max. global dt 0.029216 at time: 3.86057 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [132]: Simulation with max. global dt 0.029212 at time: 3.88978 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [133]: Simulation with max. global dt 0.029209 at time: 3.919 seconds.                                                                            
+Thu Feb  2 18:56:56 2023        [134]: Simulation with max. global dt 0.029207 at time: 3.9482 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [135]: Simulation with max. global dt 0.029203 at time: 3.97741 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [136]: Simulation with max. global dt 0.029199 at time: 4.00661 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [137]: Simulation with max. global dt 0.029196 at time: 4.03581 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [138]: Simulation with max. global dt 0.029194 at time: 4.06501 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [139]: Simulation with max. global dt 0.029190 at time: 4.0942 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [140]: Simulation with max. global dt 0.029186 at time: 4.12339 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [141]: Simulation with max. global dt 0.029183 at time: 4.15258 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [142]: Simulation with max. global dt 0.029181 at time: 4.18176 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [143]: Simulation with max. global dt 0.029177 at time: 4.21094 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [144]: Simulation with max. global dt 0.029173 at time: 4.24012 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [145]: Simulation with max. global dt 0.029170 at time: 4.26929 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [146]: Simulation with max. global dt 0.029168 at time: 4.29846 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [147]: Simulation with max. global dt 0.029165 at time: 4.32763 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [148]: Simulation with max. global dt 0.029161 at time: 4.35679 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [149]: Simulation with max. global dt 0.029158 at time: 4.38595 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [150]: Simulation with max. global dt 0.029156 at time: 4.41511 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [151]: Simulation with max. global dt 0.029152 at time: 4.44427 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [152]: Simulation with max. global dt 0.029148 at time: 4.47342 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        Writing output file at time: 4.50257 seconds                                                                                                      
+Thu Feb  2 18:56:56 2023        [153]: Simulation with max. global dt 0.029145 at time: 4.50257 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [154]: Simulation with max. global dt 0.029144 at time: 4.53171 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [155]: Simulation with max. global dt 0.029140 at time: 4.56086 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [156]: Simulation with max. global dt 0.029136 at time: 4.59 seconds.                                                                             
+Thu Feb  2 18:56:56 2023        [157]: Simulation with max. global dt 0.029133 at time: 4.61913 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [158]: Simulation with max. global dt 0.029131 at time: 4.64827 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [159]: Simulation with max. global dt 0.029128 at time: 4.6774 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [160]: Simulation with max. global dt 0.029124 at time: 4.70653 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [161]: Simulation with max. global dt 0.029121 at time: 4.73565 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [162]: Simulation with max. global dt 0.029119 at time: 4.76477 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [163]: Simulation with max. global dt 0.029116 at time: 4.79389 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [164]: Simulation with max. global dt 0.029112 at time: 4.82301 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [165]: Simulation with max. global dt 0.029109 at time: 4.85212 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [166]: Simulation with max. global dt 0.029108 at time: 4.88123 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [167]: Simulation with max. global dt 0.029104 at time: 4.91033 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [168]: Simulation with max. global dt 0.029100 at time: 4.93944 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [169]: Simulation with max. global dt 0.029098 at time: 4.96854 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [170]: Simulation with max. global dt 0.029096 at time: 4.99764 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [171]: Simulation with max. global dt 0.029092 at time: 5.02673 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [172]: Simulation with max. global dt 0.029089 at time: 5.05582 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [173]: Simulation with max. global dt 0.029086 at time: 5.08491 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [174]: Simulation with max. global dt 0.029085 at time: 5.114 seconds.                                                                            
+Thu Feb  2 18:56:56 2023        [175]: Simulation with max. global dt 0.029081 at time: 5.14308 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [176]: Simulation with max. global dt 0.029078 at time: 5.17216 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [177]: Simulation with max. global dt 0.029075 at time: 5.20124 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [178]: Simulation with max. global dt 0.029074 at time: 5.23032 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        Writing output file at time: 5.25939 seconds                                                                                                      
+Thu Feb  2 18:56:56 2023        [179]: Simulation with max. global dt 0.029070 at time: 5.25939 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [180]: Simulation with max. global dt 0.029067 at time: 5.28846 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [181]: Simulation with max. global dt 0.029064 at time: 5.31753 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [182]: Simulation with max. global dt 0.029063 at time: 5.34659 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [183]: Simulation with max. global dt 0.029059 at time: 5.37566 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [184]: Simulation with max. global dt 0.029056 at time: 5.40471 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [185]: Simulation with max. global dt 0.029054 at time: 5.43377 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [186]: Simulation with max. global dt 0.029053 at time: 5.46283 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [187]: Simulation with max. global dt 0.029049 at time: 5.49188 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [188]: Simulation with max. global dt 0.029046 at time: 5.52093 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [189]: Simulation with max. global dt 0.029044 at time: 5.54997 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [190]: Simulation with max. global dt 0.029043 at time: 5.57902 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [191]: Simulation with max. global dt 0.029039 at time: 5.60806 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [192]: Simulation with max. global dt 0.029037 at time: 5.6371 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [193]: Simulation with max. global dt 0.029035 at time: 5.66614 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [194]: Simulation with max. global dt 0.029034 at time: 5.69517 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [195]: Simulation with max. global dt 0.029030 at time: 5.72421 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [196]: Simulation with max. global dt 0.029028 at time: 5.75324 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [197]: Simulation with max. global dt 0.029026 at time: 5.78226 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [198]: Simulation with max. global dt 0.029025 at time: 5.81129 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [199]: Simulation with max. global dt 0.029022 at time: 5.84031 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [200]: Simulation with max. global dt 0.029019 at time: 5.86934 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [201]: Simulation with max. global dt 0.029018 at time: 5.89835 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [202]: Simulation with max. global dt 0.029017 at time: 5.92737 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [203]: Simulation with max. global dt 0.029014 at time: 5.95639 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [204]: Simulation with max. global dt 0.029011 at time: 5.9854 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        Writing output file at time: 6.01441 seconds                                                                                                      
+Thu Feb  2 18:56:56 2023        [205]: Simulation with max. global dt 0.029010 at time: 6.01441 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [206]: Simulation with max. global dt 0.029009 at time: 6.04342 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [207]: Simulation with max. global dt 0.029006 at time: 6.07243 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [208]: Simulation with max. global dt 0.029004 at time: 6.10144 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [209]: Simulation with max. global dt 0.029003 at time: 6.13044 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [210]: Simulation with max. global dt 0.029003 at time: 6.15945 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [211]: Simulation with max. global dt 0.029000 at time: 6.18845 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [212]: Simulation with max. global dt 0.028998 at time: 6.21745 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [213]: Simulation with max. global dt 0.028997 at time: 6.24645 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [214]: Simulation with max. global dt 0.028997 at time: 6.27545 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [215]: Simulation with max. global dt 0.028994 at time: 6.30444 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [216]: Simulation with max. global dt 0.028993 at time: 6.33344 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [217]: Simulation with max. global dt 0.028992 at time: 6.36243 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [218]: Simulation with max. global dt 0.028992 at time: 6.39142 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [219]: Simulation with max. global dt 0.028990 at time: 6.42041 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [220]: Simulation with max. global dt 0.028988 at time: 6.4494 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [221]: Simulation with max. global dt 0.028988 at time: 6.47839 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [222]: Simulation with max. global dt 0.028988 at time: 6.50738 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [223]: Simulation with max. global dt 0.028986 at time: 6.53637 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [224]: Simulation with max. global dt 0.028985 at time: 6.56535 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [225]: Simulation with max. global dt 0.028984 at time: 6.59434 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [226]: Simulation with max. global dt 0.028985 at time: 6.62332 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [227]: Simulation with max. global dt 0.028984 at time: 6.65231 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [228]: Simulation with max. global dt 0.028983 at time: 6.68129 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [229]: Simulation with max. global dt 0.028983 at time: 6.71027 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [230]: Simulation with max. global dt 0.028983 at time: 6.73926 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        Writing output file at time: 6.76824 seconds                                                                                                      
+Thu Feb  2 18:56:56 2023        [231]: Simulation with max. global dt 0.028983 at time: 6.76824 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [232]: Simulation with max. global dt 0.028982 at time: 6.79722 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [233]: Simulation with max. global dt 0.028982 at time: 6.8262 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [234]: Simulation with max. global dt 0.028983 at time: 6.85518 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [235]: Simulation with max. global dt 0.028983 at time: 6.88417 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [236]: Simulation with max. global dt 0.028983 at time: 6.91315 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [237]: Simulation with max. global dt 0.028983 at time: 6.94213 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [238]: Simulation with max. global dt 0.028984 at time: 6.97112 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [239]: Simulation with max. global dt 0.028985 at time: 7.0001 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [240]: Simulation with max. global dt 0.028985 at time: 7.02909 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [241]: Simulation with max. global dt 0.028986 at time: 7.05807 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [242]: Simulation with max. global dt 0.028987 at time: 7.08706 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [243]: Simulation with max. global dt 0.028989 at time: 7.11604 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [244]: Simulation with max. global dt 0.028989 at time: 7.14503 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [245]: Simulation with max. global dt 0.028990 at time: 7.17402 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [246]: Simulation with max. global dt 0.028992 at time: 7.20301 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [247]: Simulation with max. global dt 0.028994 at time: 7.232 seconds.                                                                            
+Thu Feb  2 18:56:56 2023        [248]: Simulation with max. global dt 0.028995 at time: 7.261 seconds.                                                                            
+Thu Feb  2 18:56:56 2023        [249]: Simulation with max. global dt 0.028997 at time: 7.28999 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [250]: Simulation with max. global dt 0.029000 at time: 7.31899 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [251]: Simulation with max. global dt 0.029002 at time: 7.34799 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [252]: Simulation with max. global dt 0.029004 at time: 7.37699 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [253]: Simulation with max. global dt 0.029006 at time: 7.406 seconds.                                                                            
+Thu Feb  2 18:56:56 2023        [254]: Simulation with max. global dt 0.029009 at time: 7.435 seconds.                                                                            
+Thu Feb  2 18:56:56 2023        [255]: Simulation with max. global dt 0.029013 at time: 7.46401 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [256]: Simulation with max. global dt 0.029015 at time: 7.49302 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        Writing output file at time: 7.52204 seconds                                                                                                      
+Thu Feb  2 18:56:56 2023        [257]: Simulation with max. global dt 0.029018 at time: 7.52204 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [258]: Simulation with max. global dt 0.029021 at time: 7.55106 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [259]: Simulation with max. global dt 0.029026 at time: 7.58008 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [260]: Simulation with max. global dt 0.029029 at time: 7.6091 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [261]: Simulation with max. global dt 0.029032 at time: 7.63813 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [262]: Simulation with max. global dt 0.029036 at time: 7.66717 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [263]: Simulation with max. global dt 0.029041 at time: 7.6962 seconds.                                                                           
+Thu Feb  2 18:56:56 2023        [264]: Simulation with max. global dt 0.029046 at time: 7.72524 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [265]: Simulation with max. global dt 0.029050 at time: 7.75429 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [266]: Simulation with max. global dt 0.029055 at time: 7.78334 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [267]: Simulation with max. global dt 0.029061 at time: 7.81239 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [268]: Simulation with max. global dt 0.029067 at time: 7.84145 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [269]: Simulation with max. global dt 0.029072 at time: 7.87052 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [270]: Simulation with max. global dt 0.029077 at time: 7.89959 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [271]: Simulation with max. global dt 0.029084 at time: 7.92867 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [272]: Simulation with max. global dt 0.029091 at time: 7.95776 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [273]: Simulation with max. global dt 0.029098 at time: 7.98685 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [274]: Simulation with max. global dt 0.029105 at time: 8.01594 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [275]: Simulation with max. global dt 0.029112 at time: 8.04505 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [276]: Simulation with max. global dt 0.029120 at time: 8.07416 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [277]: Simulation with max. global dt 0.029129 at time: 8.10328 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [278]: Simulation with max. global dt 0.029137 at time: 8.13241 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [279]: Simulation with max. global dt 0.029145 at time: 8.16155 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [280]: Simulation with max. global dt 0.029154 at time: 8.19069 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [281]: Simulation with max. global dt 0.029164 at time: 8.21984 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [282]: Simulation with max. global dt 0.029175 at time: 8.24901 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        Writing output file at time: 8.27818 seconds                                                                                                      
+Thu Feb  2 18:56:56 2023        [283]: Simulation with max. global dt 0.029184 at time: 8.27818 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [284]: Simulation with max. global dt 0.029195 at time: 8.30737 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [285]: Simulation with max. global dt 0.029206 at time: 8.33656 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [286]: Simulation with max. global dt 0.029218 at time: 8.36577 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [287]: Simulation with max. global dt 0.029231 at time: 8.39499 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [288]: Simulation with max. global dt 0.029243 at time: 8.42422 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [289]: Simulation with max. global dt 0.029256 at time: 8.45346 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [290]: Simulation with max. global dt 0.029269 at time: 8.48271 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [291]: Simulation with max. global dt 0.029284 at time: 8.51198 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [292]: Simulation with max. global dt 0.029299 at time: 8.54127 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [293]: Simulation with max. global dt 0.029316 at time: 8.57057 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [294]: Simulation with max. global dt 0.029332 at time: 8.59988 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [295]: Simulation with max. global dt 0.029348 at time: 8.62921 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [296]: Simulation with max. global dt 0.029366 at time: 8.65856 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [297]: Simulation with max. global dt 0.029384 at time: 8.68793 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [298]: Simulation with max. global dt 0.029404 at time: 8.71731 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [299]: Simulation with max. global dt 0.029425 at time: 8.74672 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [300]: Simulation with max. global dt 0.029447 at time: 8.77614 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [301]: Simulation with max. global dt 0.029471 at time: 8.80559 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [302]: Simulation with max. global dt 0.029494 at time: 8.83506 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [303]: Simulation with max. global dt 0.029518 at time: 8.86455 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [304]: Simulation with max. global dt 0.029544 at time: 8.89407 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [305]: Simulation with max. global dt 0.029572 at time: 8.92362 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [306]: Simulation with max. global dt 0.029601 at time: 8.95319 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        [307]: Simulation with max. global dt 0.029631 at time: 8.98279 seconds.                                                                          
+Thu Feb  2 18:56:56 2023        Writing output file at time: 9.01242 seconds                                                                                                      
+Thu Feb  2 18:56:57 2023        [308]: Simulation with max. global dt 0.029663 at time: 9.01242 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [309]: Simulation with max. global dt 0.029697 at time: 9.04208 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [310]: Simulation with max. global dt 0.029733 at time: 9.07178 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [311]: Simulation with max. global dt 0.029770 at time: 9.10151 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [312]: Simulation with max. global dt 0.029809 at time: 9.13128 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [313]: Simulation with max. global dt 0.029850 at time: 9.16109 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [314]: Simulation with max. global dt 0.029893 at time: 9.19094 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [315]: Simulation with max. global dt 0.029938 at time: 9.22084 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [316]: Simulation with max. global dt 0.029986 at time: 9.25078 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [317]: Simulation with max. global dt 0.030035 at time: 9.28076 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [318]: Simulation with max. global dt 0.030087 at time: 9.3108 seconds.                                                                           
+Thu Feb  2 18:56:57 2023        [319]: Simulation with max. global dt 0.030141 at time: 9.34088 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [320]: Simulation with max. global dt 0.030197 at time: 9.37102 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [321]: Simulation with max. global dt 0.030256 at time: 9.40122 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [322]: Simulation with max. global dt 0.030317 at time: 9.43148 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [323]: Simulation with max. global dt 0.030379 at time: 9.46179 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [324]: Simulation with max. global dt 0.030443 at time: 9.49217 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [325]: Simulation with max. global dt 0.030510 at time: 9.52262 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [326]: Simulation with max. global dt 0.030579 at time: 9.55313 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [327]: Simulation with max. global dt 0.030651 at time: 9.58371 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [328]: Simulation with max. global dt 0.030721 at time: 9.61436 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [329]: Simulation with max. global dt 0.030794 at time: 9.64508 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [330]: Simulation with max. global dt 0.030866 at time: 9.67587 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [331]: Simulation with max. global dt 0.030935 at time: 9.70674 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [332]: Simulation with max. global dt 0.030971 at time: 9.73767 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        Writing output file at time: 9.76864 seconds                                                                                                      
+Thu Feb  2 18:56:57 2023        [333]: Simulation with max. global dt 0.031001 at time: 9.76864 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [334]: Simulation with max. global dt 0.031029 at time: 9.79964 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [335]: Simulation with max. global dt 0.031055 at time: 9.83067 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [336]: Simulation with max. global dt 0.031080 at time: 9.86173 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [337]: Simulation with max. global dt 0.031104 at time: 9.89281 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [338]: Simulation with max. global dt 0.031127 at time: 9.92391 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [339]: Simulation with max. global dt 0.031149 at time: 9.95504 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [340]: Simulation with max. global dt 0.031170 at time: 9.98619 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [341]: Simulation with max. global dt 0.031190 at time: 10.0174 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [342]: Simulation with max. global dt 0.031209 at time: 10.0485 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [343]: Simulation with max. global dt 0.031217 at time: 10.0798 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [344]: Simulation with max. global dt 0.031224 at time: 10.111 seconds.                                                                           
+Thu Feb  2 18:56:57 2023        [345]: Simulation with max. global dt 0.031232 at time: 10.1422 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [346]: Simulation with max. global dt 0.031239 at time: 10.1734 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [347]: Simulation with max. global dt 0.031246 at time: 10.2047 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [348]: Simulation with max. global dt 0.031253 at time: 10.2359 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [349]: Simulation with max. global dt 0.031261 at time: 10.2672 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [350]: Simulation with max. global dt 0.031268 at time: 10.2984 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [351]: Simulation with max. global dt 0.031275 at time: 10.3297 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [352]: Simulation with max. global dt 0.031282 at time: 10.361 seconds.                                                                           
+Thu Feb  2 18:56:57 2023        [353]: Simulation with max. global dt 0.031289 at time: 10.3923 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [354]: Simulation with max. global dt 0.031296 at time: 10.4235 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [355]: Simulation with max. global dt 0.031303 at time: 10.4548 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [356]: Simulation with max. global dt 0.031310 at time: 10.4861 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        Writing output file at time: 10.5175 seconds                                                                                                      
+Thu Feb  2 18:56:57 2023        [357]: Simulation with max. global dt 0.031317 at time: 10.5175 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [358]: Simulation with max. global dt 0.031324 at time: 10.5488 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [359]: Simulation with max. global dt 0.031331 at time: 10.5801 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [360]: Simulation with max. global dt 0.031338 at time: 10.6114 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [361]: Simulation with max. global dt 0.031345 at time: 10.6428 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [362]: Simulation with max. global dt 0.031351 at time: 10.6741 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [363]: Simulation with max. global dt 0.031358 at time: 10.7055 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [364]: Simulation with max. global dt 0.031365 at time: 10.7368 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [365]: Simulation with max. global dt 0.031372 at time: 10.7682 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [366]: Simulation with max. global dt 0.031379 at time: 10.7996 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [367]: Simulation with max. global dt 0.031385 at time: 10.8309 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [368]: Simulation with max. global dt 0.031392 at time: 10.8623 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [369]: Simulation with max. global dt 0.031399 at time: 10.8937 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [370]: Simulation with max. global dt 0.031405 at time: 10.9251 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [371]: Simulation with max. global dt 0.031412 at time: 10.9565 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [372]: Simulation with max. global dt 0.031419 at time: 10.9879 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [373]: Simulation with max. global dt 0.031425 at time: 11.0193 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [374]: Simulation with max. global dt 0.031432 at time: 11.0508 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [375]: Simulation with max. global dt 0.031439 at time: 11.0822 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [376]: Simulation with max. global dt 0.031445 at time: 11.1136 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [377]: Simulation with max. global dt 0.031452 at time: 11.1451 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [378]: Simulation with max. global dt 0.031458 at time: 11.1765 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [379]: Simulation with max. global dt 0.031465 at time: 11.208 seconds.                                                                           
+Thu Feb  2 18:56:57 2023        [380]: Simulation with max. global dt 0.031471 at time: 11.2395 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        Writing output file at time: 11.2709 seconds                                                                                                      
+Thu Feb  2 18:56:57 2023        [381]: Simulation with max. global dt 0.031478 at time: 11.2709 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [382]: Simulation with max. global dt 0.031484 at time: 11.3024 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [383]: Simulation with max. global dt 0.031491 at time: 11.3339 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [384]: Simulation with max. global dt 0.031497 at time: 11.3654 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [385]: Simulation with max. global dt 0.031504 at time: 11.3969 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [386]: Simulation with max. global dt 0.031510 at time: 11.4284 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [387]: Simulation with max. global dt 0.031517 at time: 11.4599 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [388]: Simulation with max. global dt 0.031523 at time: 11.4914 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [389]: Simulation with max. global dt 0.031529 at time: 11.5229 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [390]: Simulation with max. global dt 0.031536 at time: 11.5545 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [391]: Simulation with max. global dt 0.031542 at time: 11.586 seconds.                                                                           
+Thu Feb  2 18:56:57 2023        [392]: Simulation with max. global dt 0.031548 at time: 11.6175 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [393]: Simulation with max. global dt 0.031555 at time: 11.6491 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [394]: Simulation with max. global dt 0.031561 at time: 11.6806 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [395]: Simulation with max. global dt 0.031567 at time: 11.7122 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [396]: Simulation with max. global dt 0.031573 at time: 11.7438 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [397]: Simulation with max. global dt 0.031579 at time: 11.7753 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [398]: Simulation with max. global dt 0.031586 at time: 11.8069 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [399]: Simulation with max. global dt 0.031592 at time: 11.8385 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [400]: Simulation with max. global dt 0.031598 at time: 11.8701 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [401]: Simulation with max. global dt 0.031604 at time: 11.9017 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [402]: Simulation with max. global dt 0.031610 at time: 11.9333 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [403]: Simulation with max. global dt 0.031616 at time: 11.9649 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [404]: Simulation with max. global dt 0.031622 at time: 11.9965 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        Writing output file at time: 12.0282 seconds                                                                                                      
+Thu Feb  2 18:56:57 2023        [405]: Simulation with max. global dt 0.031628 at time: 12.0282 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [406]: Simulation with max. global dt 0.031635 at time: 12.0598 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [407]: Simulation with max. global dt 0.031641 at time: 12.0914 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [408]: Simulation with max. global dt 0.031647 at time: 12.1231 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [409]: Simulation with max. global dt 0.031653 at time: 12.1547 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [410]: Simulation with max. global dt 0.031659 at time: 12.1864 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [411]: Simulation with max. global dt 0.031664 at time: 12.218 seconds.                                                                           
+Thu Feb  2 18:56:57 2023        [412]: Simulation with max. global dt 0.031670 at time: 12.2497 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [413]: Simulation with max. global dt 0.031676 at time: 12.2814 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [414]: Simulation with max. global dt 0.031682 at time: 12.313 seconds.                                                                           
+Thu Feb  2 18:56:57 2023        [415]: Simulation with max. global dt 0.031688 at time: 12.3447 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [416]: Simulation with max. global dt 0.031694 at time: 12.3764 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [417]: Simulation with max. global dt 0.031699 at time: 12.4081 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [418]: Simulation with max. global dt 0.031704 at time: 12.4398 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [419]: Simulation with max. global dt 0.031709 at time: 12.4715 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [420]: Simulation with max. global dt 0.031714 at time: 12.5032 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [421]: Simulation with max. global dt 0.031718 at time: 12.5349 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [422]: Simulation with max. global dt 0.031723 at time: 12.5666 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [423]: Simulation with max. global dt 0.031728 at time: 12.5984 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [424]: Simulation with max. global dt 0.031733 at time: 12.6301 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [425]: Simulation with max. global dt 0.031737 at time: 12.6618 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [426]: Simulation with max. global dt 0.031742 at time: 12.6936 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [427]: Simulation with max. global dt 0.031747 at time: 12.7253 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        Writing output file at time: 12.757 seconds                                                                                                       
+Thu Feb  2 18:56:57 2023        [428]: Simulation with max. global dt 0.031752 at time: 12.757 seconds.                                                                           
+Thu Feb  2 18:56:57 2023        [429]: Simulation with max. global dt 0.031756 at time: 12.7888 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [430]: Simulation with max. global dt 0.031761 at time: 12.8206 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [431]: Simulation with max. global dt 0.031766 at time: 12.8523 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [432]: Simulation with max. global dt 0.031770 at time: 12.8841 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [433]: Simulation with max. global dt 0.031775 at time: 12.9159 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [434]: Simulation with max. global dt 0.031780 at time: 12.9476 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [435]: Simulation with max. global dt 0.031784 at time: 12.9794 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [436]: Simulation with max. global dt 0.031789 at time: 13.0112 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [437]: Simulation with max. global dt 0.031794 at time: 13.043 seconds.                                                                           
+Thu Feb  2 18:56:57 2023        [438]: Simulation with max. global dt 0.031798 at time: 13.0748 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [439]: Simulation with max. global dt 0.031803 at time: 13.1066 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [440]: Simulation with max. global dt 0.031808 at time: 13.1384 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [441]: Simulation with max. global dt 0.031812 at time: 13.1702 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [442]: Simulation with max. global dt 0.031817 at time: 13.202 seconds.                                                                           
+Thu Feb  2 18:56:57 2023        [443]: Simulation with max. global dt 0.031822 at time: 13.2338 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [444]: Simulation with max. global dt 0.031826 at time: 13.2656 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [445]: Simulation with max. global dt 0.031831 at time: 13.2975 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [446]: Simulation with max. global dt 0.031835 at time: 13.3293 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [447]: Simulation with max. global dt 0.031840 at time: 13.3611 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [448]: Simulation with max. global dt 0.031844 at time: 13.393 seconds.                                                                           
+Thu Feb  2 18:56:57 2023        [449]: Simulation with max. global dt 0.031849 at time: 13.4248 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [450]: Simulation with max. global dt 0.031854 at time: 13.4567 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [451]: Simulation with max. global dt 0.031858 at time: 13.4885 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        Writing output file at time: 13.5204 seconds                                                                                                      
+Thu Feb  2 18:56:57 2023        [452]: Simulation with max. global dt 0.031863 at time: 13.5204 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [453]: Simulation with max. global dt 0.031867 at time: 13.5522 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [454]: Simulation with max. global dt 0.031872 at time: 13.5841 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [455]: Simulation with max. global dt 0.031876 at time: 13.616 seconds.                                                                           
+Thu Feb  2 18:56:57 2023        [456]: Simulation with max. global dt 0.031881 at time: 13.6479 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [457]: Simulation with max. global dt 0.031885 at time: 13.6797 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [458]: Simulation with max. global dt 0.031890 at time: 13.7116 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [459]: Simulation with max. global dt 0.031895 at time: 13.7435 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [460]: Simulation with max. global dt 0.031899 at time: 13.7754 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [461]: Simulation with max. global dt 0.031904 at time: 13.8073 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [462]: Simulation with max. global dt 0.031908 at time: 13.8392 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [463]: Simulation with max. global dt 0.031913 at time: 13.8711 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [464]: Simulation with max. global dt 0.031917 at time: 13.903 seconds.                                                                           
+Thu Feb  2 18:56:57 2023        [465]: Simulation with max. global dt 0.031922 at time: 13.9349 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [466]: Simulation with max. global dt 0.031926 at time: 13.9669 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [467]: Simulation with max. global dt 0.031931 at time: 13.9988 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [468]: Simulation with max. global dt 0.031935 at time: 14.0307 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [469]: Simulation with max. global dt 0.031940 at time: 14.0627 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [470]: Simulation with max. global dt 0.031944 at time: 14.0946 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [471]: Simulation with max. global dt 0.031948 at time: 14.1265 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [472]: Simulation with max. global dt 0.031953 at time: 14.1585 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [473]: Simulation with max. global dt 0.031957 at time: 14.1904 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [474]: Simulation with max. global dt 0.031962 at time: 14.2224 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        Writing output file at time: 14.2544 seconds                                                                                                      
+Thu Feb  2 18:56:57 2023        [475]: Simulation with max. global dt 0.031966 at time: 14.2544 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [476]: Simulation with max. global dt 0.031971 at time: 14.2863 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [477]: Simulation with max. global dt 0.031975 at time: 14.3183 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [478]: Simulation with max. global dt 0.031979 at time: 14.3503 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [479]: Simulation with max. global dt 0.031984 at time: 14.3822 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [480]: Simulation with max. global dt 0.031988 at time: 14.4142 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [481]: Simulation with max. global dt 0.031993 at time: 14.4462 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [482]: Simulation with max. global dt 0.031997 at time: 14.4782 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [483]: Simulation with max. global dt 0.032001 at time: 14.5102 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [484]: Simulation with max. global dt 0.032006 at time: 14.5422 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [485]: Simulation with max. global dt 0.032010 at time: 14.5742 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [486]: Simulation with max. global dt 0.032015 at time: 14.6062 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [487]: Simulation with max. global dt 0.032019 at time: 14.6382 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [488]: Simulation with max. global dt 0.032023 at time: 14.6703 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [489]: Simulation with max. global dt 0.032028 at time: 14.7023 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [490]: Simulation with max. global dt 0.032032 at time: 14.7343 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [491]: Simulation with max. global dt 0.032036 at time: 14.7663 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [492]: Simulation with max. global dt 0.032041 at time: 14.7984 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [493]: Simulation with max. global dt 0.032045 at time: 14.8304 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [494]: Simulation with max. global dt 0.032049 at time: 14.8625 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [495]: Simulation with max. global dt 0.032054 at time: 14.8945 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [496]: Simulation with max. global dt 0.032058 at time: 14.9266 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [497]: Simulation with max. global dt 0.032063 at time: 14.9586 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        [498]: Simulation with max. global dt 0.032067 at time: 14.9907 seconds.                                                                          
+Thu Feb  2 18:56:57 2023        Writing output file at time: 15.0228 seconds                                                                                                      
+Time left:      < 1 sec (100% done) [==========================================================================================================================================] |
+[INF]   Total runtime for [whole_simulation_loop] 2.2380827808 sec
+------------------------------------------------------------------
+Thu Feb  2 18:56:57 2023        Simulation finished. Printing statistics for each process.
+------------------------------------------------------------------
+Thu Feb  2 18:56:57 2023        Process 0 - CPU Time: 1.21387 seconds
+Thu Feb  2 18:56:57 2023        Process 0 - CPU + Communication Time: 1.21453 seconds
+Thu Feb  2 18:56:57 2023        Process 0 - Wall clock time: 2.00000 seconds
+Thu Feb  2 18:56:57 2023        499 Iterations done
+
+*************************************************************
+SWE Finished successfully.
+*************************************************************

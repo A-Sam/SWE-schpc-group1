@@ -1,0 +1,112 @@
+
+*************************************************************
+Welcome to SWE
+
+SWE Copyright (C) 2012-2022
+  Technische Universitaet Muenchen
+  Department of Informatics
+  Chair of Scientific Computing
+  http://www5.in.tum.de/SWE
+
+SWE comes with ABSOLUTELY NO WARRANTY.
+SWE is a free software, and you are welcome
+to redistribute it under certain conditions.
+Details can be found in the file 'LICENSE'.
+*************************************************************
+Tue Jan 31 22:50:06 2023	Number of MPI processes: 1
+Tue Jan 31 22:50:06 2023	Number of Cells: 100 * 100 = 10000
+Tue Jan 31 22:50:06 2023	Number of Blocks: 1 * 1 = 1
+Tue Jan 31 22:50:06 2023	Process 0 - Number of Cells: 100 * 100 = 10000
+Tue Jan 31 22:50:06 2023	Cell size: 10m * 10m = 100m^2
+Tue Jan 31 22:50:06 2023	Connecting SWE blocks at left boundaries.
+Tue Jan 31 22:50:06 2023	Connecting SWE blocks at right boundaries.
+Tue Jan 31 22:50:06 2023	Connecting SWE blocks at bottom boundaries.
+Tue Jan 31 22:50:06 2023	Connecting SWE blocks at top boundaries.
+Tue Jan 31 22:50:06 2023	Process 0 - Neighbors: -1 (left), -1 (right), -1 (bottom), -1 (top)
+Tue Jan 31 22:50:06 2023	Writing output file at time: 0 seconds
+
+------------------------------------------------------------------
+Tue Jan 31 22:50:06 2023	Everything is set up, starting the simulation.
+------------------------------------------------------------------
+Tue Jan 31 22:50:06 2023	[0]: Simulation with max. global dt 0.329746 at time: 0 seconds.
+Tue Jan 31 22:50:06 2023	[1]: Simulation with max. global dt 0.319463 at time: 0.329746 seconds.
+Tue Jan 31 22:50:06 2023	[2]: Simulation with max. global dt 0.313895 at time: 0.649209 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 0.963104 seconds
+Tue Jan 31 22:50:06 2023	[3]: Simulation with max. global dt 0.311370 at time: 0.963104 seconds.
+Tue Jan 31 22:50:06 2023	[4]: Simulation with max. global dt 0.309902 at time: 1.27447 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 1.58438 seconds
+Tue Jan 31 22:50:06 2023	[5]: Simulation with max. global dt 0.308928 at time: 1.58438 seconds.
+Tue Jan 31 22:50:06 2023	[6]: Simulation with max. global dt 0.308263 at time: 1.8933 seconds.
+Tue Jan 31 22:50:06 2023	[7]: Simulation with max. global dt 0.307850 at time: 2.20157 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 2.50942 seconds
+Tue Jan 31 22:50:06 2023	[8]: Simulation with max. global dt 0.307646 at time: 2.50942 seconds.
+Tue Jan 31 22:50:06 2023	[9]: Simulation with max. global dt 0.307606 at time: 2.81706 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 3.12467 seconds
+Tue Jan 31 22:50:06 2023	[10]: Simulation with max. global dt 0.307445 at time: 3.12467 seconds.
+Tue Jan 31 22:50:06 2023	[11]: Simulation with max. global dt 0.306824 at time: 3.43211 seconds.
+Tue Jan 31 22:50:06 2023	[12]: Simulation with max. global dt 0.306465 at time: 3.73894 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 4.0454 seconds
+Tue Jan 31 22:50:06 2023	[13]: Simulation with max. global dt 0.306344 at time: 4.0454 seconds.
+Tue Jan 31 22:50:06 2023	[14]: Simulation with max. global dt 0.306438 at time: 4.35175 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 4.65819 seconds
+Tue Jan 31 22:50:06 2023	[15]: Simulation with max. global dt 0.306723 at time: 4.65819 seconds.
+Tue Jan 31 22:50:06 2023	[16]: Simulation with max. global dt 0.306852 at time: 4.96491 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 5.27176 seconds
+Tue Jan 31 22:50:06 2023	[17]: Simulation with max. global dt 0.307041 at time: 5.27176 seconds.
+Tue Jan 31 22:50:06 2023	[18]: Simulation with max. global dt 0.307436 at time: 5.5788 seconds.
+Tue Jan 31 22:50:06 2023	[19]: Simulation with max. global dt 0.308005 at time: 5.88624 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 6.19424 seconds
+Tue Jan 31 22:50:06 2023	[20]: Simulation with max. global dt 0.308699 at time: 6.19424 seconds.
+Tue Jan 31 22:50:06 2023	[21]: Simulation with max. global dt 0.309156 at time: 6.50294 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 6.8121 seconds
+Tue Jan 31 22:50:06 2023	[22]: Simulation with max. global dt 0.309813 at time: 6.8121 seconds.
+Tue Jan 31 22:50:06 2023	[23]: Simulation with max. global dt 0.310672 at time: 7.12191 seconds.
+Tue Jan 31 22:50:06 2023	[24]: Simulation with max. global dt 0.311745 at time: 7.43258 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 7.74433 seconds
+Tue Jan 31 22:50:06 2023	[25]: Simulation with max. global dt 0.313055 at time: 7.74433 seconds.
+Tue Jan 31 22:50:06 2023	[26]: Simulation with max. global dt 0.314634 at time: 8.05738 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 8.37202 seconds
+Tue Jan 31 22:50:06 2023	[27]: Simulation with max. global dt 0.316527 at time: 8.37202 seconds.
+Tue Jan 31 22:50:06 2023	[28]: Simulation with max. global dt 0.318049 at time: 8.68854 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 9.00659 seconds
+Tue Jan 31 22:50:06 2023	[29]: Simulation with max. global dt 0.318752 at time: 9.00659 seconds.
+Tue Jan 31 22:50:06 2023	[30]: Simulation with max. global dt 0.319395 at time: 9.32535 seconds.
+Tue Jan 31 22:50:06 2023	[31]: Simulation with max. global dt 0.320115 at time: 9.64474 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 9.96486 seconds
+Tue Jan 31 22:50:06 2023	[32]: Simulation with max. global dt 0.320757 at time: 9.96486 seconds.
+Tue Jan 31 22:50:06 2023	[33]: Simulation with max. global dt 0.321438 at time: 10.2856 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 10.6071 seconds
+Tue Jan 31 22:50:06 2023	[34]: Simulation with max. global dt 0.322144 at time: 10.6071 seconds.
+Tue Jan 31 22:50:06 2023	[35]: Simulation with max. global dt 0.322771 at time: 10.9292 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 11.252 seconds
+Tue Jan 31 22:50:06 2023	[36]: Simulation with max. global dt 0.323479 at time: 11.252 seconds.
+Tue Jan 31 22:50:06 2023	[37]: Simulation with max. global dt 0.324123 at time: 11.5754 seconds.
+Tue Jan 31 22:50:06 2023	[38]: Simulation with max. global dt 0.324774 at time: 11.8996 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 12.2243 seconds
+Tue Jan 31 22:50:06 2023	[39]: Simulation with max. global dt 0.325502 at time: 12.2243 seconds.
+Tue Jan 31 22:50:06 2023	[40]: Simulation with max. global dt 0.326085 at time: 12.5498 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 12.8759 seconds
+Tue Jan 31 22:50:06 2023	[41]: Simulation with max. global dt 0.326756 at time: 12.8759 seconds.
+Tue Jan 31 22:50:06 2023	[42]: Simulation with max. global dt 0.327420 at time: 13.2027 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 13.5301 seconds
+Tue Jan 31 22:50:06 2023	[43]: Simulation with max. global dt 0.328021 at time: 13.5301 seconds.
+Tue Jan 31 22:50:06 2023	[44]: Simulation with max. global dt 0.328712 at time: 13.8581 seconds.
+Tue Jan 31 22:50:06 2023	[45]: Simulation with max. global dt 0.329308 at time: 14.1868 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 14.5161 seconds
+Tue Jan 31 22:50:06 2023	[46]: Simulation with max. global dt 0.329931 at time: 14.5161 seconds.
+Tue Jan 31 22:50:06 2023	[47]: Simulation with max. global dt 0.330627 at time: 14.8461 seconds.
+Tue Jan 31 22:50:06 2023	Writing output file at time: 15.1767 seconds
+
+ Time taken by fWave Solver = 6.33243e+07 ns[0m[32m
+[INF]	Total runtime for [whole_simulation_loop] 0.79530919 sec[0m
+------------------------------------------------------------------
+Tue Jan 31 22:50:06 2023	Simulation finished. Printing statistics for each process.
+------------------------------------------------------------------
+Tue Jan 31 22:50:06 2023	Process 0 - CPU Time: 0.074325 seconds
+Tue Jan 31 22:50:06 2023	Process 0 - CPU + Communication Time: 0.074512 seconds
+Tue Jan 31 22:50:06 2023	Process 0 - Wall clock time: 0.00000 seconds
+Tue Jan 31 22:50:06 2023	48 Iterations done
+
+*************************************************************
+SWE Finished successfully.
+*************************************************************

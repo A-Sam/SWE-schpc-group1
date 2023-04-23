@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2023/02/01 12:32:27</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>bandwidth-measurement-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>bandwidth-measurement-done</type>
+</msg>
+<msg id="4" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="5" tool="runtool">
+  <type>marker-file</type>
+  <arg>/dss/dsshome1/lxc0D/t1221am/project/SWE_Nandini/SWE_n/build/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="6" tool="trc">
+  <type>PROCESS_START</type>
+  <arg>/dss/dsshome1/lxc0D/t1221am/project/SWE_Nandini/SWE_n/build/SWE-MPI-Runner</arg>
+  <arg>41851</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:45 2023</timestamp>
+</msg>
+<msg id="7" tool="trc">
+  <type>PROCESS_ANALYSIS_MODE</type>
+  <arg>full</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:45 2023</timestamp>
+</msg>
+<msg id="8" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/dss/dsshome1/lxc0D/t1221am/project/SWE_Nandini/SWE_n/build/SWE-MPI-Runner</arg>
+  <arg>0x400000</arg>
+  <arg>0x62ffdf</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:45 2023</timestamp>
+</msg>
+<msg id="9" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <arg>0x2ac21e2bd000</arg>
+  <arg>0x2ac21e4e410f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:45 2023</timestamp>
+</msg>
+<msg id="10" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <arg>0x7ffc2ffe3000</arg>
+  <arg>0x7ffc2ffe3cea</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:45 2023</timestamp>
+</msg>
+<msg id="11" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/libmpicxx.so.12</arg>
+  <arg>0x2ac233db4000</arg>
+  <arg>0x2ac233fd3c4f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:46 2023</timestamp>
+</msg>
+<msg id="12" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/libmpifort.so.12</arg>
+  <arg>0x2ac23400e000</arg>
+  <arg>0x2ac2343cb817</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:46 2023</timestamp>
+</msg>
+<msg id="13" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/release/libmpi.so.12</arg>
+  <arg>0x2ac2343ed000</arg>
+  <arg>0x2ac23574c217</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:46 2023</timestamp>
+</msg>
+<msg id="14" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libdl.so.2</arg>
+  <arg>0x2ac235784000</arg>
+  <arg>0x2ac23598708f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:46 2023</timestamp>
+</msg>
+<msg id="15" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/librt.so.1</arg>
+  <arg>0x2ac235990000</arg>
+  <arg>0x2ac235b979ff</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:46 2023</timestamp>
+</msg>
+<msg id="16" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libpthread.so.0</arg>
+  <arg>0x2ac235b98000</arg>
+  <arg>0x2ac235db61e7</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:46 2023</timestamp>
+</msg>
+<msg id="17" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libstdc++.so.6</arg>
+  <arg>0x2ac235db7000</arg>
+  <arg>0x2ac2361975bf</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:46 2023</timestamp>
+</msg>
+<msg id="18" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libm.so.6</arg>
+  <arg>0x2ac236198000</arg>
+  <arg>0x2ac2364cf227</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:46 2023</timestamp>
+</msg>
+<msg id="19" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libgcc_s.so.1</arg>
+  <arg>0x2ac2364d0000</arg>
+  <arg>0x2ac2366e744f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:46 2023</timestamp>
+</msg>
+<msg id="20" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libc.so.6</arg>
+  <arg>0x2ac2366e8000</arg>
+  <arg>0x2ac236aa2777</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:46 2023</timestamp>
+</msg>
+<msg id="21" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/libfabric.so.1</arg>
+  <arg>0x2ac236ab1000</arg>
+  <arg>0x2ac236cf2777</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:46 2023</timestamp>
+</msg>
+<msg id="22" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libnuma.so.1</arg>
+  <arg>0x2ac239aea000</arg>
+  <arg>0x2ac239cf589f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:48 2023</timestamp>
+</msg>
+<msg id="23" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libsockets-fi.so</arg>
+  <arg>0x2ac239f23000</arg>
+  <arg>0x2ac23a177e57</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:49 2023</timestamp>
+</msg>
+<msg id="24" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/librxm-fi.so</arg>
+  <arg>0x2ac23a2ed000</arg>
+  <arg>0x2ac23a53ab57</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:49 2023</timestamp>
+</msg>
+<msg id="25" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libtcp-fi.so</arg>
+  <arg>0x2ac23a61e000</arg>
+  <arg>0x2ac23a85a6d7</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:49 2023</timestamp>
+</msg>
+<msg id="26" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libshm-fi.so</arg>
+  <arg>0x2ac23a8f3000</arg>
+  <arg>0x2ac23ab31837</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:49 2023</timestamp>
+</msg>
+<msg id="27" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libverbs-fi.so</arg>
+  <arg>0x2ac23ac5f000</arg>
+  <arg>0x2ac23aeaee57</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:49 2023</timestamp>
+</msg>
+<msg id="28" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/librdmacm.so.1</arg>
+  <arg>0x2ac23aed0000</arg>
+  <arg>0x2ac23b0ec27f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:49 2023</timestamp>
+</msg>
+<msg id="29" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libibverbs.so.1</arg>
+  <arg>0x2ac23b0f8000</arg>
+  <arg>0x2ac23b3106d7</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:49 2023</timestamp>
+</msg>
+<msg id="30" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libnl-route-3.so.200</arg>
+  <arg>0x2ac23b311000</arg>
+  <arg>0x2ac23b5868ff</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:49 2023</timestamp>
+</msg>
+<msg id="31" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libnl-3.so.200</arg>
+  <arg>0x2ac23b587000</arg>
+  <arg>0x2ac23b7a88ef</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:49 2023</timestamp>
+</msg>
+<msg id="32" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/librxe-rdmav2.so</arg>
+  <arg>0x2ac23bf5f000</arg>
+  <arg>0x2ac23c16314f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:50 2023</timestamp>
+</msg>
+<msg id="33" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libmlx5-rdmav2.so</arg>
+  <arg>0x2ac23c164000</arg>
+  <arg>0x2ac23c3bf11f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:50 2023</timestamp>
+</msg>
+<msg id="34" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libmlx-fi.so</arg>
+  <arg>0x2ac23c52e000</arg>
+  <arg>0x2ac23c769bf7</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:51 2023</timestamp>
+</msg>
+<msg id="35" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libucp.so.0</arg>
+  <arg>0x2ac23c76a000</arg>
+  <arg>0x2ac23c9be587</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:51 2023</timestamp>
+</msg>
+<msg id="36" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libz.so.1</arg>
+  <arg>0x2ac23c9bf000</arg>
+  <arg>0x2ac23cbd500f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:51 2023</timestamp>
+</msg>
+<msg id="37" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libuct.so.0</arg>
+  <arg>0x2ac23cbd6000</arg>
+  <arg>0x2ac23cdfbc77</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:51 2023</timestamp>
+</msg>
+<msg id="38" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libucs.so.0</arg>
+  <arg>0x2ac23cdfc000</arg>
+  <arg>0x2ac23d03377f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:51 2023</timestamp>
+</msg>
+<msg id="39" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/usr/lib64/libucm.so.0</arg>
+  <arg>0x2ac23d034000</arg>
+  <arg>0x2ac23d247477</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:51 2023</timestamp>
+</msg>
+<msg id="40" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libnss_files.so.2</arg>
+  <arg>0x2ac23d4a5000</arg>
+  <arg>0x2ac23d6b7737</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:51 2023</timestamp>
+</msg>
+<msg id="41" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libmlx-fi.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="42" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/librxm-fi.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="43" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libverbs-fi.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="44" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/librdmacm.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="45" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libtcp-fi.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="46" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libsockets-fi.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="47" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libshm-fi.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="48" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/dss/dsshome1/lxc0D/t1221am/project/SWE_Nandini/SWE_n/build/SWE-MPI-Runner</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="49" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="50" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="51" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/libmpicxx.so.12</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="52" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/libmpifort.so.12</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="53" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/release/libmpi.so.12</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="54" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libdl.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="55" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/librt.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="56" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libpthread.so.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="57" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libstdc++.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="58" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libm.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="59" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libgcc_s.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="60" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libc.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="61" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/dss/dsshome1/lrz/sys/spack/release/22.2.1/opt/x86_64/intel-parallel-studio/cluster.2020.4-gcc-iwcbshq/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/libfabric.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="62" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libnuma.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="63" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libibverbs.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="64" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libnl-route-3.so.200</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="65" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libnl-3.so.200</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="66" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/librxe-rdmav2.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="67" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libmlx5-rdmav2.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="68" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libucp.so.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="69" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libz.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="70" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libuct.so.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="71" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libucs.so.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="72" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/usr/lib64/libucm.so.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="73" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libnss_files.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="74" tool="trc">
+  <type>PROCESS_FINISH</type>
+  <arg>/dss/dsshome1/lxc0D/t1221am/project/SWE_Nandini/SWE_n/build/SWE-MPI-Runner</arg>
+  <arg>41851</arg>
+  <arg>0x0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Feb  1 11:32:59 2023</timestamp>
+</msg>
+<msg id="75" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="76" tool="runtool">
+  <type>marker-file</type>
+  <arg>/dss/dsshome1/lxc0D/t1221am/project/SWE_Nandini/SWE_n/build/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="77" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="78" tool="runtool">
+  <type>log-end</type>
+  <arg>2023/02/01 12:33:03</arg>
+</msg>
+
+</log>
+

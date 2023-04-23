@@ -75,6 +75,18 @@ if(ENABLE_MPI)
     target_compile_definitions(${META_PROJECT_NAME} PUBLIC ENABLE_MPI)
 endif()
 
+option(ENABLE_GPI "Enable distributed-memory parallelization using GPI." OFF)
+if(ENABLE_GPI)
+    message(STATUS "GPI2 install path ${GPI2_INSTALL_PATH}")
+    find_library(GPI2_LIB NAMES GPI2 REQUIRED HINTS ${GPI2_INSTALL_PATH}/lib64)
+    find_path(GPI2_INC NAMES GASPI.h REQUIRED HINTS ${GPI2_INSTALL_PATH}/include)
+    message(STATUS "GPI2 LIB INC: ${GPI2_LIB} ${GPI2_INC}")
+    target_link_libraries(${META_PROJECT_NAME} PUBLIC ${GPI2_LIB})
+    target_include_directories(${META_PROJECT_NAME} PUBLIC ${GPI2_INC})
+    target_compile_definitions(${META_PROJECT_NAME} PUBLIC SWE_ENABLE_GPI)
+    target_compile_definitions(${META_PROJECT_NAME} PUBLIC ENABLE_GPI)
+endif()
+
 option(ENABLE_VECTORIZATION "Enable auto-vectorization of the block iteration on the CPU (only supported solvers), and in Release Mode." OFF)
 # if(OPT_ENABLE_SANITIZER_ADDRESS)
 #     target_compile_options(${META_PROJECT_NAME} PRIVATE -fsanitize=address)
@@ -136,11 +148,11 @@ if(ENABLE_MPI)
     target_link_libraries(${META_PROJECT_NAME}-MPI-Runner PRIVATE ${META_PROJECT_NAME})
 endif()
 
+
 option(ENABLE_TRACING_PROFILER "Enable Custom Profiling for SWE" ON)
 if(ENABLE_TRACING_PROFILER)
     target_compile_definitions(${META_PROJECT_NAME} PUBLIC ENABLE_TRACING_PROFILER)
 endif()
-
 
 set(USED_SCENARIO "RadialDamBreakScenario" CACHE STRING "Choose a scenario to run")
 set(USED_SCENARIO_OPTIONS BathymetryDamBreakScenario RadialDamBreakScenario SeaAtRestScenario SplashingConeScenario SplashingPoolScenario)
@@ -156,3 +168,10 @@ elseif(USED_SCENARIO STREQUAL "SplashingConeScenario")
 elseif(USED_SCENARIO STREQUAL "SplashingPoolScenario")
     target_compile_definitions(${META_PROJECT_NAME} PUBLIC SPLASHINGPOOLSCENARIO)
 endif()
+
+if(ENABLE_GPI)
+    add_executable(${META_PROJECT_NAME}-GPI-Runner Runners/GPI-Runner.cpp ${GPI2_INC}/GASPI.h)
+    target_link_libraries(${META_PROJECT_NAME}-GPI-Runner PRIVATE ${META_PROJECT_NAME})
+    target_include_directories(${META_PROJECT_NAME}-GPI-Runner PRIVATE ${META_PROJECT_NAME})
+endif()
+

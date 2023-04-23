@@ -76,9 +76,81 @@ namespace Blocks
      * - the momentum components #hu and #hv (in x- and y- direction, resp.)
      * - the bathymetry #b
      *
+<<<<<<< master
      * Each of the components is stored as a 2D array, implemented as a Tools::Float2D object,
      * and are defined on grid indices [0,..,#nx+1]*[0,..,#ny+1].
      * The computational domain is indexed with [1,..,#nx]*[1,..,#ny].
+=======
+     */
+    Block(int nx, int ny, RealType dx, RealType dy);
+    Block(
+      int nx, int ny, RealType dx, RealType dy,
+      Tools::Float2D<RealType>& h,
+      Tools::Float2D<RealType>& hu,
+      Tools::Float2D<RealType>& hv
+    );
+    
+    /**
+     * Sets the bathymetry on BoundaryType::Outflow or BoundaryType::Wall.
+     * Should be called very time a boundary is changed to a BoundaryType::Outflow or
+     * BoundaryType::Wall <b>or</b> the bathymetry changes.
+     */
+    void setBoundaryBathymetry();
+
+    // Synchronization Methods
+    /**
+     * Updates all temporary and non-local (for heterogeneous computing) variables
+     * after an external update of the main variables h, hu, hv, and b.
+     */
+    virtual void synchAfterWrite();
+    virtual void synchWaterHeightAfterWrite();
+    virtual void synchDischargeAfterWrite();
+    virtual void synchBathymetryAfterWrite();
+
+    /**
+     * Updates the ghost layers (only for BoundaryType::Connect and BoundaryType::Passive conditions)
+     * after an external update of the main variables h, hu, hv, and b in the
+     * ghost layer.
+     */
+    virtual void synchGhostLayerAfterWrite();
+
+    /**
+     * Updates all temporary and non-local (for heterogeneous computing) variables
+     * before an external access to the main variables h, hu, hv, and b.
+     */
+    virtual void synchBeforeRead();
+    virtual void synchWaterHeightBeforeRead();
+    virtual void synchDischargeBeforeRead();
+    virtual void synchBathymetryBeforeRead();
+    virtual void synchCopyLayerBeforeRead();
+
+    /// Sets boundary conditions in ghost layers (set boundary conditions)
+    /**
+     * Sets the values of all ghost cells depending on the specifed
+     * boundary conditions
+     * - set boundary conditions for types BoundaryType::Wall and BoundaryType::Outflow
+     * - derived classes need to transfer ghost layers
+     */
+    virtual void setBoundaryConditions();
+
+  public:
+    /**
+     * Destructor: de-allocate all variables
+     */
+    virtual ~Block() = default;
+
+    static Block* getBlockInstance(int nx, int ny, RealType dx, RealType dy);
+    static Block* getBlockInstance(
+      int nx, int ny, RealType dx, RealType dy,
+      Tools::Float2D<RealType>& h,
+      Tools::Float2D<RealType>& hu,
+      Tools::Float2D<RealType>& hv
+    );
+
+    /// Initialises unknowns to a specific scenario
+    /**
+     * Initialises the unknowns and bathymetry in all grid cells according to the given Scenarios::Scenario.
+>>>>>>> master
      *
      * The mesh sizes of the grid in x- and y-direction are stored in static variables
      * #dx and #dy. The position of the Cartesian grid in space is stored via the
